@@ -1,0 +1,57 @@
+body, html {
+    background-color: rgba(6, 6, 22, 0.938);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    color: rgb(164, 176, 185);
+    white-space: pre;
+}
+
+/* ----------------------------------------- Input Box Display ----------------------------------------- */
+#inputTxt{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: rgb(164, 176, 185);
+    z-index: 1;
+}
+
+/* ------------------------------------------- Title Display ------------------------------------------- */
+#title{
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+}
+#title > h1{
+    margin-bottom: 0;
+}
+#title > h2{
+    margin-top: 0;
+}
+
+/* ------------------------------------------- Signs Display ------------------------------------------- */
+#signs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    margin-right: 1vw;
+}
+.right{
+    margin-left: 1vw;
+}
+
+/* ------------------------------------------- Score Display ------------------------------------------- */
+#cumulativeScoreDisplay{
+    margin-top: 3vh;
+}
